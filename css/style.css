@@ -1,0 +1,17 @@
+body {
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(220, 78%, 29%, 1) 0%,
+    hsla(221, 45%, 73%, 1) 100%
+  );
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
